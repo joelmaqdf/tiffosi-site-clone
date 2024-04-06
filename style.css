@@ -1,3 +1,5 @@
+@import url(./css/header.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -13,46 +15,10 @@ body {
     justify-content: center;
     align-items: center;
 }
-header{
-    background-color: aliceblue;
-    width: 100vw;
-    height: 15vh;
-    
-}
+
 .container {
     flex-direction: row;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    
-}
-
-.container p {
-    background-color:rgb(8, 8, 229);
-    color: rgb(255, 254, 254);
-    text-align: center;
-    
-}
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 50px;
-    
-}
-.menu .links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    
-}
-.link li {
-    display: flex;
-    flex-direction: row;
-   
-
-    
-
 }

@@ -1,0 +1,32 @@
+
+header{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 15vh;   
+}
+
+.container p {
+    background-color:rgb(8, 8, 229);
+    color: rgb(255, 254, 254);
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;  
+}
+
+.menu .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links li {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+}
